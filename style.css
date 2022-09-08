@@ -1,0 +1,48 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.logo{
+    height: 90px;
+    width: 80px;
+    padding: 5px;
+}
+nav{
+    background-color: aquamarine;
+    height: 100px;
+    width: 100%;
+}
+nav ul{
+    float: right;
+    margin-right: 20px;
+}
+nav ul li{
+    display: inline;
+    line-height: 80px;
+    font-weight: bold;
+    font-size: large;
+    margin-right: 40px;
+}
+.calender{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    background: rgb(176, 233, 176);
+}
+table{
+    border: 1px solid black;
+    text-align: center;
+    text-emphasis: bold;
+}
+table td,th{
+    border: 1px solid;
+    text-align: center;
+}
+.monthname{
+    text-align: center;
+    color: black;
+    font-weight: bold;
+    font-size: 20px;
+}
+.holiday{
+    color: red;
+}
